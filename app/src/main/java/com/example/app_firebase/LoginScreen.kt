@@ -56,7 +56,7 @@ fun LoginScreen(onLogin: (String) -> Unit, onRegisterClick: () -> Unit) {
                 modifier = Modifier.padding(24.dp),
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.ic_logo),
+                    painter = painterResource(id = R.drawable.black_cat),
                     contentDescription = "Logo",
                     modifier = Modifier
                         .height(80.dp)
